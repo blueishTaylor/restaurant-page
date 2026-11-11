@@ -1,2 +1,4 @@
 import "./styles.css"
-console.log("funciona!")
+
+import { cargarHome } from "./home"
+cargarHome;
