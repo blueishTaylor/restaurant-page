@@ -8,15 +8,15 @@
         precio: 1500
       },
       {
-        nombre:"gomitas",
+        nombre:"Gomitas",
         precio:1000
       },
       {
-        nombre:"papitas fritas", 
+        nombre:"Papitas fritas", 
         precio:800
       }, 
       {
-        nombre:"galletas", 
+        nombre:"Galletas", 
         precio:700
       }
 
@@ -42,7 +42,8 @@
         
         contenedor.append(titulo, p);
         contenedorMenu.append(contenedor);
-    })
+    });
+
     const content = document.getElementById("content");
     content.append(contenedorMenu);
 }
