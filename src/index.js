@@ -1,4 +1,4 @@
 import "./styles.css"
 
-import { cargarHome } from "./home"
-cargarHome;
+import { cargarHome } from "./home.js"
+cargarHome();

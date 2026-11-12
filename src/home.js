@@ -1,3 +1,6 @@
+import imagenWhale from "./pictures/TheWhale.png";
+
+
 const cargarHome = () => {
     const contenedor = document.createElement("div")
     contenedor.classList.add("home")
@@ -9,7 +12,7 @@ const cargarHome = () => {
     h1.textContent = "The Whale Store";
     p1.textContent = "La mejor tienda para encontrar cada cosita que necesites";
     p2.textContent = "Atendido por las lesbianas mas hermosas";
-    imagen.src= "https://thaistarx.com/wp-content/uploads/2025/08/GxrTDh7aQAAC-07-819x1024.jpg"
+    imagen.src= imagenWhale;
     imagen.alt = "MilkLove"
 
     contenedor.append(h1, p1, p2, imagen)

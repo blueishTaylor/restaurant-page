@@ -1,9 +1,17 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: aliceblue;
     color: blueviolet;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
 }
 header {
     background-color: #1f2937;
@@ -19,6 +27,10 @@ justify-content: space-around;
 max-width: 100%;
 }
 
-img{
-    max-width: 100%;
+.home img{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
