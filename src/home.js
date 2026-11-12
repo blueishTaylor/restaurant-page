@@ -1,4 +1,4 @@
-import imagenWhale from "./pictures/TheWhale.png";
+import imagenWhale from "./pictures/thewhale.jpeg";
 
 
 const cargarHome = () => {
