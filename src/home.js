@@ -1,6 +1,3 @@
-import imagenWhale from "./pictures/thewhale.jpeg";
-
-
 const cargarHome = () => {
     const contenedor = document.createElement("div")
     contenedor.classList.add("home")
@@ -10,11 +7,9 @@ const cargarHome = () => {
     const imagen = document.createElement("img");
 
     h1.textContent = "The Whale Store";
-    p1.textContent = "La mejor tienda para encontrar cada cosita que necesites";
+    p1.textContent = "La mejor tienda para encontrar todo lo que necesites";
     p2.textContent = "Atendido por las lesbianas mas hermosas";
-    imagen.src= imagenWhale;
-    imagen.alt = "MilkLove"
-
+  
     contenedor.append(h1, p1, p2, imagen)
 
     const contenido = document.getElementById("content");
